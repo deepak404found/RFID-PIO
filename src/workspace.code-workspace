@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../dk/RFID_Frontend"
+		},
+		{
+			"name": "210131-202712-nodemcuv2",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
