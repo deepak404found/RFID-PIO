@@ -15,9 +15,9 @@
 MFRC522 mfrc522(SS_PIN, RST_PIN); // Create MFRC522 instance.
 //************************************************************************
 /* Set these to your desired credentials. */
-const char *ssid = "HomeAP";
-const char *password = "routerkiller";
-const char* device_token  = "1fc7f0bcf657e828";
+const char *ssid = "HomeAP"; // Enter Your SSID here
+const char *password = "routerkiller"; // Enter Your Password here
+const char* device_token  = "1fc7f0bcf657e828"; // Using Device Token to pair RFID
 //************************************************************************
 String URL = "http://192.168.29.94:5000/entry"; //computer IP or the server domain
 String getData, Link;
